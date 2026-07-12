@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Windows 11 Style Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="boot">
+    <div>
+        <h1>Windows 11</h1>
+        <p>Starting...</p>
+        <div class="loader"></div>
+    </div>
+</div>
+
+
+<div id="desktop">
+
+    <div class="desktop-icons">
+
+        <button onclick="openApp('File Explorer')">
+            📁<br>
+            File Explorer
+        </button>
+
+        <button onclick="openApp('Settings')">
+            ⚙️<br>
+            Settings
+        </button>
+
+        <button onclick="openApp('Notepad')">
+            📝<br>
+            Notepad
+        </button>
+
+        <button onclick="openApp('Calculator')">
+            🧮<br>
+            Calculator
+        </button>
+
+    </div>
+
+
+    <div id="appWindow">
+        <h2>Welcome</h2>
+        <p>Windows 11 Style Simulator</p>
+    </div>
+
+
+    <div class="taskbar">
+
+        <button onclick="startMenu()">
+            ⊞
+        </button>
+
+        <button onclick="restart()">
+            Restart
+        </button>
+
+        <button onclick="shutdown()">
+            Shutdown
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
